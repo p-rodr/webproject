@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+:root {
+    --hacker_color: #f46e12;
+}
+/**/
+/*body {*/
+/*    background-color: red;*/
+/*}*/
+*{
+    margin: 0;
+}
+
+img{
+    width: 40%;
+    height: auto;
+}
+
+#a {
+    border: dashed var(--hacker_color);
+}
+
+h1, h2{
+    font-family: "Bebas Neue", sans-serif;
+    color: var(--hacker_color);
+}
+footer{
+    background-color: black;
+    color: white;
+}
+
+img{
+    
+    margin: auto
+}
+
+p{
+    text-align: center;
+}
+
+footer > img {
+    width: 5%;
+    padding: 150px;
+    text-align: center;
+}
